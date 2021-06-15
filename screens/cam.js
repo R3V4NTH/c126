@@ -56,7 +56,7 @@ export default class CameraScreen extends React.Component {
             return  <Text>Camera permissions must be allowed</Text>;
         } else {
         return (
-            <View style={{flex:1,alignItems:'flex-end'}}>
+            <View>
                 
                 <Camera
                     ref={ref => {this.camera = ref}}   
